@@ -29,4 +29,24 @@ Interpretação
 Compilar VS interpretar
   -  Código compilado pode ser executado direto no CPU (sem interpretador) - São mais rápidos
   -  Códigos interpretador são intependentes do sistema operacional - Mesmo código pode rodar em Linux, Windows, MAC ou na geladeira
-  -  
+
+<hr>
+
+O que é Phyton?
+  - Linguagem Interpretada
+  - Roda em todos os SOs
+  - Filosofia: Quanto mais simples melhor
+
+
+O que são variáveis?
+  - É um local de memória reservado que se utiliza para guardar alguma informação
+
+a = 1
+type(a) > tipo da variável - int
+type(e) > tipo da variável - stg (string)
+type(e) # tipo da variável - STG (string)
+
+
+
+
+
