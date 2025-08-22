@@ -44,8 +44,26 @@ O que são variáveis?
 a = 1 <br>
 type(a) > tipo da variável - int <br>
 type(e) > tipo da variável - stg (string) <br>
-type(e) # tipo da variável - STG (string)
+type(e) >  tipo da variável - STG (string) <br>
+type(completx)  > tipo de variável - complexo 
 
+
+String
+  - Uma cadeia de caracteres e qualquer texto que atribuir a uma variavel
+  - Usa ' no inicio e ' no im
+  - Tanto faz usar simples ou duplas ' ou  "
+  - Pode escrever uma string em mais de uma linha colocando ela entre parenteses ou utilizando 3 aspas simples ou dupla
+
+palavra = """curso 
+de 
+phyton"""
+
+Numeros também podem ter tipso diferentes de valores inteiros ou reais (ponto <b>flutuantes<b>)
+
+Atribuição de dados
+  - É uma variavel é feita utilizando um simbolo de igualdade onde o lado direito é o valor que será atribuido e o lado esquerdo é a variavel que receberá esse valor
+      - Variavel = valor
+  - Outro tipo de dados são booleanos, true ou false
 
 
 
