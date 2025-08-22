@@ -41,9 +41,9 @@ O que é Phyton?
 O que são variáveis?
   - É um local de memória reservado que se utiliza para guardar alguma informação
 
-a = 1
-type(a) > tipo da variável - int
-type(e) > tipo da variável - stg (string)
+a = 1 <br>
+type(a) > tipo da variável - int <br>
+type(e) > tipo da variável - stg (string) <br>
 type(e) # tipo da variável - STG (string)
 
 
