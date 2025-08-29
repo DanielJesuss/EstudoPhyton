@@ -3,81 +3,81 @@ Aqui ficará todos os códigos e todas as anotações sobre os cursos de Phyton
 
 Curso Phyton - Udemy https://www.udemy.com/course/python-desde-o-zero/learn/lecture/42515988?start=150#overview
 
-<h1>O que é um algoritimo?</h1>
+O que é um algoritimo?
   - Sequencia de instruções lógicas
   - Chegar na solução de um problema
   - (receita de bolo por exemplo)
   - Passo a passo detalhado
 
-<h3>Linguagem de programação?</h3>
+Linguagem de programação?
   - Conjunto de regras, padrões e instruções para cominar com a máquina
 
-<h5>Algoritimo VS código</h5>
-  - Algoritimo: Instruções para resolver um problema
+Algoritmo VS código
+  - Algoritmo: Instruções para resolver um problema
   - Código: Instruções para a máquina resolver um problema
-  - Ou seja... um código é a implementação de um algoritimo
+  - Ou seja... um código é a implementação de um algoritmo
 
-<h5>O que é Compilação?</h5>
+O que é Compilação?
   - Um código feito e precisa que se torne um programa executável (software)
 
-<h5>Interpretação</h5>
+Interpretação
   - Interprete de linguagem 
   - Diferente de compilação
   - Utiliza uma linguagem chamada bytecode
   - O interpretador vai conseguir ler e executar o bytecode
 
-<h5>Compilar VS interpretar</h5>
+Compilar VS interpretar
   -  Código compilado pode ser executado direto no CPU (sem interpretador) - São mais rápidos
   -  Códigos interpretador são intependentes do sistema operacional - Mesmo código pode rodar em Linux, Windows, MAC ou na geladeira
 
 <hr>
 
-<h3>O que é Phyton?</h3>
+O que é Phyton?
   - Linguagem Interpretada
   - Roda em todos os SOs
   - Filosofia: Quanto mais simples melhor
 
 
-<h5>O que são variáveis?</h5>
+O que são variáveis?
   - É um local de memória reservado que se utiliza para guardar alguma informação
 
-a = 1 <br>
-type(a) > tipo da variável - int <br>
-type(e) > tipo da variável - stg (string) <br>
-type(e) >  tipo da variável - STG (string) <br>
+a = 1 
+type(a) > tipo da variável - int 
+type(e) > tipo da variável - stg (string) 
+type(e) >  tipo da variável - STG (string)
 type(completx)  > tipo de variável - complexo 
 
 
-<h5>String</h5>
-  - Uma cadeia de caracteres e qualquer texto que atribuir a uma variavel <br>
-  - Usa ' no inicio e ' no fim <br>
-  - Tanto faz usar simples ou duplas ' ou  "  <br>
+String
+  - Uma cadeia de caracteres e qualquer texto que atribuir a uma variavel 
+  - Usa ' no inicio e ' no fim 
+  - Tanto faz usar simples ou duplas ' ou  "  
   - Pode escrever uma string em mais de uma linha colocando ela entre parenteses ou utilizando 3 aspas simples ou dupla <br>
 
 palavra = """curso 
 de 
 phyton"""
 
-Numeros também podem ter tipso diferentes de valores inteiros ou reais (ponto <b>flutuantes<b>)
+Numeros também podem ter tipso diferentes de valores inteiros ou reais (ponto flutuantes)
 
-<h5>Atribuição de dados</h5>
-  - É uma variavel é feita utilizando um simbolo de igualdade onde o lado direito é o valor que será atribuido e o lado esquerdo é a variavel que receberá esse valor <br>
-      - Variavel = valor< br>
-  - Outro tipo de dados são booleanos, true ou false <br>
+Atribuição de dados
+  - É uma variavel é feita utilizando um simbolo de igualdade onde o lado direito é o valor que será atribuido e o lado esquerdo é a variavel que receberá esse valor 
+      - Variavel = valor
+  - Outro tipo de dados são booleanos, true ou false 
 
-d = True : bool <br>
+d = True : bool 
 1 == 2 : false
 
 <hr>
 
-<h3>Nomenclatura de variaveis</h3>
-  - Começar com letra ou underscore<br>
-  - Pode conter numeros mas não começar com eles<br>
-  - Não pode ter caracteres especiais (espaço) exceto undersocre<br>
-  - Variáveis são escritas em lowercase com separação por underscore<br>
+Nomenclatura de variaveis
+  - Começar com letra ou underscore
+  - Pode conter numeros mas não começar com eles
+  - Não pode ter caracteres especiais (espaço) exceto undersocre
+  - Variáveis são escritas em lowercase com separação por underscore
 
 
-<h3>Entrada de dados</h3>
+Entrada de dados
 
 Utiliza a função nativa input() para receber os dados pelo usuário
 
@@ -88,9 +88,50 @@ ou
 print(f'Bem vindo {nome}')
 
 
-<h3>Funções de conversão</h3>
-  - Int() converte um valor para um número inteiro<br>
-  - Float() converte um valor para um número de ponto flutuante<br>
-  - Str() converte um valor para uma string<br>
+Funções de conversão
+  - Int() converte um valor para um número inteiro
+  - Float() converte um valor para um número de ponto flutuante
+  - Str() converte um valor para uma string
   - Bool() converte um valor para um booleano
-  
+
+
+
+Operadores Aritiméticos
+São os operadores para realizar cálculos matemáticos no Phyton: 
+
+Operador
+- "+" (Adição ou sinal positivo) - Soma dois valores - 10 + 4
+- "-" (Subtração ou sinal negativo) -	Subtrai dois valores - 12 - 8
+- "*" (Multiplicação) - Multiplica dois valores - 3 * 4
+- "/" (Divisão) - Divide dois valores - 100 / 5
+- "//" (Divisão inteira) - Divide dois valores e retorna apenas a parte inteira (descarta as casas decimais) - 10 // 6
+- "%" (Módulo) - Retorna o resto da divisão - 4 % 2
+- "**" (Exponenciação) - Eleva um número à potência de outro - 4 ** 2
+
+<hr>
+
+Exercicios
+
+1: Crie um programa que solicite ao usuário o ano em que ele nasceu e calcule quantos anos ele terá no ano de 2035.
+
+dtNascimento = int(input('Qual o ano que você nasceu: '))
+idade = 2035 - dtNascimento
+
+print(idade)
+
+2: Desenvolva um programa que peça ao usuário para digitar um número inteiro. Em seguida, exiba o número anterior e o número seguinte.
+Objetivo: Praticar operações matemáticas simples e manipulação de variáveis.
+
+numero1 = int(input('Digite um número: ')
+numero2 = numero1 - 1
+
+print(numero2)
+
+
+3: Escreva um programa que leia a largura e a altura de uma parede em metros. Calcule a área total e informe quantos litros de tinta serão necessários para pintá-la, sabendo que cada litro cobre 2 metros quadrados.
+
+largura = 5
+altura = 3
+
+area = largura *
+
