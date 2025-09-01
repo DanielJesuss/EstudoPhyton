@@ -130,8 +130,10 @@ print(numero2)
 
 3: Escreva um programa que leia a largura e a altura de uma parede em metros. Calcule a área total e informe quantos litros de tinta serão necessários para pintá-la, sabendo que cada litro cobre 2 metros quadrados.
 
-largura = 5
-altura = 3
+altura = int(input('Digite a altura: '))
+largura = int(input('Digite a largura: '))
 
-area = largura *
+area = altura * largura
+tinta = area / 2
 
+print(tinta)
