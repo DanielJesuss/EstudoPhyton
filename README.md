@@ -1,4 +1,4 @@
-# EstudoPhyton
+# Estudo python
 Aqui ficará todos os códigos e todas as anotações sobre os cursos de Phyton
 
 Curso Phyton - Udemy https://www.udemy.com/course/python-desde-o-zero/learn/lecture/42515988?start=150#overview
